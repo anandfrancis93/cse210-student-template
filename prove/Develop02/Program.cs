@@ -1,14 +1,21 @@
 using System;
 
-// Exceeding requirements:
-// 1. Saves and loads the journal as a real .csv file that opens in Excel.
-//    Every field is wrapped in quotes and inner quotes are doubled, so
-//    commas and quotation marks in entries are handled correctly.
-// 2. Each entry also records the user's mood (1-5), addressing the
-//    "not sure what to write" barrier with a quick, low-effort input.
-// 3. Prompts the user for confirmation before loading a file would
-//    overwrite unsaved entries, and reports missing files or failed saves
-//    instead of crashing.
+/*
+
+Exceeding requirements:
+
+1. Saves and loads the journal as a real .csv file that opens in Excel.
+Every field is wrapped in quotes and inner quotes are doubled, so
+commas and quotation marks in entries are handled correctly.
+
+2. Each entry also records the user's mood (1-5), addressing the
+"not sure what to write" barrier with a quick, low-effort input.
+
+3. Prompts the user for confirmation before loading a file would
+overwrite unsaved entries, and reports missing files or failed saves
+instead of crashing.
+
+*/
 
 class Program
 {
